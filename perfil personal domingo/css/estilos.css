@@ -1,0 +1,311 @@
+
+body{
+  background-color: beige;
+  
+}
+.h1S{
+ color:beige;
+ background-color: chocolate;
+ text-align-last: center;
+ padding:10px 100px;
+ margin-top: 80px;
+ border-radius: 40px;
+ border-color:brown;
+ margin-left: 150px;
+ margin-right: 150px;
+ margin-bottom: 100px;
+ padding: 10px;
+}
+.h2P{
+  text-align: center;
+  background-color: brown;
+  height: 100px;
+  color: bisque;
+
+}
+.h1S:hover{
+  transform: scale(1.2);
+}
+nav{
+  background-color: bisque;
+
+}
+.h3S{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 50px;
+  color: bisque;
+}
+a{
+  color: chocolate;
+  padding: 10px;
+  display: inline-block;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.container{
+  background-image: url(img/Pescado.png);
+  color: beige;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  min-height: 70px;
+  padding: 30px;
+}
+.conM{
+  background-color: bisque;
+}
+.conM:hover{
+  background-color: coral;
+
+}
+.menubtn{
+  display: none;
+}
+
+.imgS1{
+  width: 300px;
+  margin: 40px 15px;
+  padding: 40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.imgQ:hover{
+  transform:scale(1.2);
+}
+.imgT{
+  width: 200px;
+  left: 10px;
+  color: chocolate;
+  display: inline-block;
+}
+.izquierda{
+  margin-left: 970px;
+}
+.izquierda:hover{
+  transform:scale(1.2);
+}
+.mapa{
+  text-align: left;
+  image-orientation:flex;
+  background-color: saddlebrown;
+  height: 250px;
+  width: 1500px; 
+  color: azure;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  text-align: left;
+  padding: 30px;
+  
+}
+.Salones1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.Salones{
+
+  background-color: chocolate;
+  width: 300px;
+  height: 500px;
+  margin: 15px 10px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 40px;
+}
+.Salones:hover{
+  transform: scale(1.2);
+}
+.Salon{
+  background-color: chocolate;
+  margin-left: 30px;
+}
+.imgS{
+  width: 300px;
+  height: 400px;
+  margin-left: 0;
+  border-radius: 40px;
+  
+}
+.img:hover {
+  transition: step-start;
+
+}
+.Estrella{
+  margin-left: 200px;
+  
+}
+.estrella{
+ margin: 0 50px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ border-radius: 250px;
+ background-color: chocolate;
+ padding: 10px;
+}
+
+.estrella:hover{
+  transform:scale(1.2);
+  
+} 
+.listaG{
+  text-align: center;
+}
+.slider-box{
+  width: 700px;
+  height: 400px;
+  margin: 50px auto 0;
+  padding: 40px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.slider-box ul{
+  display: flex;
+  padding: 0%;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+
+}
+.slider-box li{
+  width: 100%;
+  list-style: none;
+  position: relative;
+
+}
+.texto{
+  position: absolute;
+  text-align: center;
+  padding: 50px 200px;
+  top: 100px;
+  color:bisque;
+
+}
+.slider-box img{
+  width: 100%;
+}
+.Padre{
+  overflow: hidden;
+}
+.Promo{
+background-color: bisque;
+border-color: chocolate;
+}
+@keyframes slide {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+
+}
+@media(max-width: 700px) {
+  
+ .menubtn{
+  display: block;
+  float: right;
+  line-height: 50px;
+  margin: 30px 30px;
+  width: 150px;
+  border-radius: 40px;
+  background-color: bisque;
+  color:chocolate;
+ }
+ .conM{
+  display: block;
+  border-radius: 40px;
+ }
+ .container{
+  border-radius: 30px;
+ }
+ .a{
+  flex-direction: column;
+ }
+ .slider-box{
+  display: block;
+ }
+ .mapa{
+  display: block;
+  
+ }
+ 
+ }
+ 
+@media (max-width: 768px){
+
+  .body{
+    display: none;
+  }
+  .h1S{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .imgS{
+    text-align: center;
+  }
+  .Estrella{
+    text-align: center;
+    margin: 0;
+  }
+  .mapa{
+    margin: 0;
+
+  }
+  .Salones1{
+    display: inline-block;
+  }
+  .Salones{
+    margin-top: 20px;
+    margin-bottom: 150px;
+  }
+  .barra{
+    display: inline-block;
+  }
+
+  }
+  
+
+@media (max-width:991px){
+
+  .body{
+    display: none;
+  }
+  .h1S{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .imgS{
+    text-align: center;
+  }
+  .Estrella{
+    text-align: center;
+    margin: 0;
+  }
+  .mapa{
+    margin: 0;
+
+  }
+  .Salones1{
+    display: inline-flexbox;
+
+  }
+  .Salones{
+    margin-top: 20px;
+    margin-bottom: 150px;
+  
+  }
+
+}
